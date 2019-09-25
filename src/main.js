@@ -182,7 +182,7 @@ catalogueSearch.addEventListener("click", ()=>{
             let pokeCalculation = parseInt(filterValue.length);
             let pokePercent = (pokeCalculation/151)*100;
             let pokePercentTwo = (pokePercent.toFixed(2));
-
+//HOLA
             const theCalculation = document.getElementById("calculation");
             theCalculation.innerHTML = "¿Sabías qué en la región de Kanto el " + pokePercentTwo + " % de los pokemones son de tipo " + filterValue + " ?" ;
     
